@@ -1,3 +1,22 @@
 body {
-  background-color: rebeccapurple;
+  background: center / cover no-repeat url(./background.jpg), black;
+}
+
+div:has(> blockquote) {
+  background-color: #ededed;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
+}
+
+blockquote+p {
+  text-align: right;
 }
