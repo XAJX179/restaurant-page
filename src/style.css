@@ -2,6 +2,30 @@ body {
   background: center / cover no-repeat url(./background.jpg), black;
 }
 
+header {
+  text-align: center;
+}
+
+nav button {
+  border: 0px;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+main {
+  background-color: #ffff;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
 div:has(> blockquote) {
   background-color: #ededed;
   margin: 10px auto;
